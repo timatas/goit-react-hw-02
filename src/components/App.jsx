@@ -41,7 +41,7 @@ export const App = () => {
   }, [count]);
 
   return (
-    <div className={css.body}>
+    <div className={css.div}>
       <Description />
       <Options onUpdate={onUpdate} onReset={onReset} isHidden={isHidden} />
       <Feedback number={count} />

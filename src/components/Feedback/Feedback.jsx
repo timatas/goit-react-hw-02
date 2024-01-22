@@ -8,11 +8,11 @@ export const Feedback = ({ number: { good, neutral, bad } }) => {
     <div className={css.content}>
       {totalFeedback > 0 ? (
         <ul>
-          <li className={css.item}>Good: {good}</li>
-          <li className={css.item}>Neutral: {neutral}</li>
-          <li className={css.item}>Bad: {bad}</li>
-          <li className={css.item}>Total: {totalFeedback}</li>
-          <li className={css.item}>Positive: {percentStatistic}%</li>
+          <li>Good: {good}</li>
+          <li>Neutral: {neutral}</li>
+          <li>Bad: {bad}</li>
+          <li>Total: {totalFeedback}</li>
+          <li>Positive: {percentStatistic}%</li>
         </ul>
       ) : (
         <Notification />

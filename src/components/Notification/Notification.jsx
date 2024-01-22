@@ -1,4 +1,4 @@
 import css from './Notification.module.css';
 export const Notification = () => {
-  return <p className={css.text}>No data available</p>;
+  return <p className={css.message}>No data available</p>;
 };

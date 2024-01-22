@@ -2,7 +2,7 @@ import css from '../Options/Options.module.css';
 
 export const Options = ({ onUpdate, isHidden, onReset }) => {
   return (
-    <div>
+    <div className={css.buttons}>
       <button onClick={() => onUpdate('good')} name="good">
         Good
       </button>
